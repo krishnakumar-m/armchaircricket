@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/styles.css" rel="stylesheet">
+     <script src='js/scripts.js'></script>
+  </head>
+  <body >
+
+    <h3>armChair cricket</h3><h4 id='maxovs'></h4>
+    <table id='decider'>
+      <tr><td>
+    <input id='bat' type='button' value='Batting'  name='decide' class='decide' />
+	</td>
+	<td>
+      <input id='ball' type='button' value='Bowling'  name='decide' class='decide' />
+	</td></tr>
+    </table>
+    <table id='armchair' style='display:none'>
+      <tr id='top'>
+	<td id='batcard'>10</td><td id='bowlcard'>11</td>
+	<td id='score' colspan='3'>999-9</td><td id='widecard'>11</td>
+      </tr>
+      <tr >
+	<td  id='handtitle' colspan='4'>BOWLING</td><td>Noball Suit</td><td id='noball'>BOWLING</td>
+      </tr>
+      <tr id='hand'>
+	<td id='human-card-1' class='handcard'>7
+	</td>
+	<td id='human-card-2' class='handcard'>8
+	</td>
+	<td id='human-card-3' class='handcard'>1
+	</td>
+	<td id='human-card-4' class='handcard'>10
+	</td>
+	<td id='human-card-5' class='handcard'>11
+	</td>
+	<td id='human-card-6' class='handcard'>11
+	</td>
+      </tr>
+      <tr id='aihand' style='display:none'>
+	<td id='comp-card-1' class='handcard1'>7
+	</td>
+	<td id='comp-card-2' class='handcard1'>8
+	</td>
+	<td id='comp-card-3' class='handcard1'>1
+	</td>
+	<td id='comp-card-4' class='handcard1'>10
+	</td>
+	<td id='comp-card-5' class='handcard1'>11
+	</td>
+	<td id='comp-card-6' class='handcard1'>11
+	</td>
+      </tr>
+    </table>
+
+    <div id='msgs'>
+      
+    </div>
+    
+    
+    <div id='scorecard'>
+      
+    </div>
+  </body>
+</html>		
