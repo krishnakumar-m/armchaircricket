@@ -1,5 +1,5 @@
 # Armchair Cricket
-Armchair Cricker card game. 
+Armchair Cricket card game. 
 
 Play against a satisfactory AI.
 
